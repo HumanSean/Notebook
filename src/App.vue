@@ -551,6 +551,162 @@ body,
 .tooltip {
   text-align: center;
 }
+
+.edit-area {
+  width: 100%;
+}
+.edit-area * {
+  user-select: auto;
+}
+.edit-area a {
+  color: #4183c4;
+  word-break: break-all;
+}
+.edit-area h1,
+.edit-area h2,
+.edit-area h3,
+.edit-area h4,
+.edit-area h5,
+.edit-area h6 {
+  position: relative;
+  /* margin-top: 1em;
+  margin-bottom: 1em; */
+  line-height: 1.4;
+}
+.edit-area h1 {
+  /* padding-bottom: 0.3em; */
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+.edit-area h2 {
+  /* padding-bottom: 0.3em; */
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+.edit-area h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+.edit-area h4 {
+  font-size: 1.25em;
+}
+.edit-area h5 {
+  font-size: 1em;
+}
+.edit-area h6 {
+  font-size: 1em;
+  color: #777;
+}
+.edit-area p,
+.edit-area blockquote,
+.edit-area ul,
+.edit-area ol,
+.edit-area dl,
+.edit-area table {
+  margin: 0.8em 0;
+}
+.edit-area li > ol,
+.edit-area li > ul {
+  margin: 0 0;
+}
+.edit-area hr {
+  height: 2px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+  overflow: hidden;
+  box-sizing: article-content-box;
+}
+
+.edit-area li p.first {
+  display: inline-block;
+}
+.edit-area ul,
+.edit-area ol {
+  padding-left: 30px;
+}
+.edit-area ul:first-child,
+.edit-area ol:first-child {
+  margin-top: 0;
+}
+.edit-area ul:last-child,
+.edit-area ol:last-child {
+  margin-bottom: 0;
+}
+.edit-area blockquote {
+  border-left: 4px solid #dfe2e5;
+  padding: 0 15px;
+  color: #777777;
+}
+.edit-area blockquote blockquote {
+  padding-right: 0;
+}
+.edit-area table {
+  width: 100%;
+  padding: 0;
+  word-break: initial;
+  border-collapse: collapse;
+}
+.edit-area table tr {
+  border-top: 1px solid #dfe2e5;
+  margin: 0;
+  padding: 0;
+}
+.edit-area table tr:nth-child(2n),
+.edit-area thead {
+  background-color: #f8f8f8;
+}
+.edit-area table tr th {
+  font-weight: bold;
+  border: 1px solid #dfe2e5;
+  border-bottom: 0;
+  margin: 0;
+  padding: 6px 13px;
+}
+.edit-area table tr td {
+  border: 1px solid #dfe2e5;
+  margin: 0;
+  padding: 6px 13px;
+}
+.edit-area table tr th:first-child,
+.edit-area table tr td:first-child {
+  margin-top: 0;
+}
+.edit-area table tr th:last-child,
+.edit-area table tr td:last-child {
+  margin-bottom: 0;
+}
+.edit-area code,
+.edit-area tt {
+  border: 1px solid #e7eaed;
+  background-color: #eee;
+  border-radius: 3px;
+  padding: 0;
+  padding: 2px 4px 0px 4px;
+  font-size: 0.9em;
+}
+.edit-area pre {
+  white-space: pre;
+  overflow-x: auto;
+  background: #23241f;
+  border-radius: 3px;
+  padding: 7px 0;
+  margin: 26px 0;
+}
+.edit-area pre::-webkit-scrollbar-thumb {
+  background: #5920df;
+}
+.edit-area code {
+  display: inline-block;
+  border: none;
+}
+.edit-area img {
+  width: 100%;
+}
+
 .el-popover {
   transform: translateY(10px);
   padding: 10px !important;
